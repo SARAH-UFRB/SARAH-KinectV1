@@ -30,6 +30,12 @@ cd ~/ws
 rosdep install --from-paths src --ignore-src -r -y
 ~~~
 
+### 4. Install openCV
+Install openCv on your system.
+~~~ 
+sudo apt-get install libopencv-dev
+~~~
+
 ### 4. Build your workspace
 From the top directory of your workspace, use `colcon` to build your packages.
 ~~~
