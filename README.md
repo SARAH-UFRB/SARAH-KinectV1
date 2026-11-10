@@ -34,6 +34,7 @@ rosdep install --from-paths src --ignore-src -r -y
 Install openCv on your system.
 ~~~ 
 sudo apt-get install libopencv-dev
+sudo apt install ros-<distro>-cv-bridge
 ~~~
 
 ### 4. Build your workspace
