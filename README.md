@@ -35,6 +35,9 @@ Install openCv on your system.
 ~~~ 
 sudo apt-get install libopencv-dev
 sudo apt install ros-<distro>-cv-bridge
+sudo apt install ros-<distro>-image-transport
+sudo apt install ros-<distro>-depth-image-proc
+sudo apt install ros-<distro>-camera-info-manager
 ~~~
 
 ### 4. Build your workspace
